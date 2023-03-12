@@ -1,0 +1,11 @@
+.background-image {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
+    url(../../../images/background\ image.jpg);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text {
+  color: red;
+}

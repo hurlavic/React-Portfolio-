@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/NavTabs';
-import Home from './components/pages/Home';
-import About from './components/pages/About';
-import Blog from './components/pages/Blog';
-import Contact from './components/pages/Contact';
-// import projects from 
+import Home from './components/pages/Home/Home';
+import About from './components/pages/About/About';
+import ProjectGallery from './components/pages/Projects/Projects';
+import Contact from './components/pages/Contacts/Contact';
+// import projects from './projects.json'
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="blog" element={<Blog />} />
+          <Route path="blog" element={<ProjectGallery />} />
           {/* Define a route that will have descendant routes */}
           <Route path="contact/*" element={<Contact />} />
         </Routes>
