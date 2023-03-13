@@ -4,8 +4,9 @@ import ProjectGallery from "./Projects";
 import Wrapper from "../../wrapper/wrapper";
 import "./projects.css";
 import refractor from '../../../assets/images/refractor.png'
-import portfolio from '../../../assets/images/jeshoot.jpg'
+// import portfolio from '../../../assets/images/jeshoot.jpg'
 import prework from '../../../assets/images/prework.png'
+import bootstrap from '../../../assets/images/bootstrap.png'
 
 
 // class ProjectApp extends Component {
@@ -61,7 +62,7 @@ class ProjectApp extends Component {
         <ProjectGallery
           title={projects[2].title}
           description={projects[2].description}
-          image={portfolio}
+          image={bootstrap}
           deploy={projects[2].deployedSite}
           repo={projects[2].githubLink}
         />
