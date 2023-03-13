@@ -3,12 +3,18 @@ import projects from "../../../projects.json";
 import ProjectGallery from "./Projects";
 import Wrapper from "../../wrapper/wrapper";
 import "./projects.css";
+import refractor from '../../../assets/images/refractor.png'
+import portfolio from '../../../assets/images/jeshoot.jpg'
+import prework from '../../../assets/images/prework.png'
 
 
 // class ProjectApp extends Component {
 //     state = {
 //       projects,
 //     };
+//     componentDidMount() {
+//         console.log("Image:", this.state.projects[0].image);
+//       }
   
 //     render() {
 //       return (
@@ -18,41 +24,44 @@ import "./projects.css";
 //               key={project.id}
 //               title={project.title}
 //               description={project.description}
-//               image={project.image}
+//               image={process.env.PUBLIC_URL + project.image}
 //               deploy={project.deployedSite}
 //               repo={project.githubLink}
 //             />
 //           ))}
 //         </Wrapper>
+        
 //       );
+     
 //     }
+    
 //   }
 class ProjectApp extends Component {
   state = {
     projects,
   };
-
+  
   render() {
     return (
       <Wrapper>
         <ProjectGallery
           title={projects[0].title}
           description={projects[0].description}
-          image={projects[0].image}
+          image={prework}
           deploy={projects[0].deployedSite}
           repo={projects[0].githubLink}
         />
         <ProjectGallery
           title={projects[1].title}
           description={projects[1].description}
-          image={projects[1].image}
+          image={refractor}
           deploy={projects[1].deployedSite}
           repo={projects[1].githubLink}
         />
         <ProjectGallery
           title={projects[2].title}
           description={projects[2].description}
-          image={projects[2].image}
+          image={portfolio}
           deploy={projects[2].deployedSite}
           repo={projects[2].githubLink}
         />

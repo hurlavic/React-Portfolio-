@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Pre-Work Study Guide",
         "description": "This is a study guide for bootcamp students to keep track of their progress. It includes keeping notes on HTML, CSS, JAVASCRIPT & GIT.",
-        "image": "./assets/images/background image.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/prework-study-guide/",
         "githubLink": "https://github.com/hurlavic/prework-study-guide"
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "title": "Refractor Project",
         "description": "This project showcase an optimized webpage version of Horiseon- a marketing agency. The codes were refactored so as to meet accessibility standards.",
-        "image": "./assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/refractor-project/",
         "githubLink": "https://github.com/hurlavic/refractor-project"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "title": "Bootstrap Portfolio",
         "description": "This is a webpage showcasing my works, skills and contact details built with Bootstrap.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/Bootstrap-Portfolio/",
         "githubLink": "https://github.com/hurlavic/Bootstrap-Portfolio"
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "title": "Password generator",
         "description": "This is a simple random password generating webpage.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/Password-Generator/",
         "githubLink": "https://github.com/hurlavic/Password-Generator"
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Quiz Game",
         "description": "This is a simple quiz webpage. It's just a fun quiz games consisting of 5 questions in based javascript.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/Quiz-Game/",
         "githubLink": "https://github.com/hurlavic/Quiz-Game"
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "title": "Weather Dashboard",
         "description": "This is a webpage for users to search and get basic current and 5-day weather information (including temperature, windspeed and humidity) in any city of their choice.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://hurlavic.github.io/Weather-Dasboard/",
         "githubLink": "https://github.com/hurlavic/Weather-Dasboard"
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "title": "Country Guide and Flavour",
         "description": "This is a collaborative project. Country Guide and Flavour is a brand dedicated to providing customers with an experience to explore different countries to get general information including authentic taste of these countries.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "https://codefastlearner.github.io/Country-guide-and-Flavours/",
         "githubLink": "https://github.com/hurlavic/Country-Guide-and-Flavours"
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "title": "Readme Generator",
         "description": "This is a command line application to generate professional readme files for new projects.",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "",
         "githubLink": "https://github.com/hurlavic/Readme-Generator"
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "title": "Team Profile Generator",
         "description": "This is a Node.js command-line based application for generating basic team profile for software engineer team. ",
-        "image": "../src/assets/images/jeshoot.jpg",
+        "image": "../public/image1.jpg",
         "deployedSite": "",
         "githubLink": "https://github.com/hurlavic/Team-Profile-Generator"
     }

@@ -7,10 +7,10 @@ function Home() {
   return (
     <section id="home">
       <div className="text">
-        <p>Hello, my name is</p>
-        <h2>Victor Akindele</h2>
-        <p>I am an intern frontend developer</p>
-        <a href="../../../assets/cv" download="prescribe.pdf">
+        <p className="intro-text">Hello, my name is</p>
+        <h2 className="name">Victor Akindele</h2>
+        <p className="intro-text">I am an intern frontend developer</p>
+        <a href="/assets/cv/prescribe.pdf" download="prescribe.pdf">
           <button className="btn btn-primary mb-2">Download CV</button>
         </a>
         <Link to="/contact">

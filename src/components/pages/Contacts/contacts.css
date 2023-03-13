@@ -31,3 +31,8 @@ h5{
     transform: scale(1.2);
     color: white;
 }
+.error{
+    color: red;
+    font: 10px;
+    font-style: italic;
+}

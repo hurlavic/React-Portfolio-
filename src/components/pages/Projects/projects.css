@@ -1,0 +1,22 @@
+.cardContainer {
+    margin-bottom: 15px;
+  }
+  .card {
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .card-body p{
+    font-size: smaller;
+   }
+.card-body a{
+   font-size: 20px;
+   text-decoration: none;
+}
+.card:hover, .btn:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-title{
+  color: rgb(30, 30, 97);
+  font-size: 1.5em;
+}

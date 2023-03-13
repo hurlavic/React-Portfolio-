@@ -1,11 +1,12 @@
 import React from "react";
+import './projects.css';
 
 
 
 function ProjectGallery(props) {
   return (
     <section id='project'>
-            <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
+            <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
               <div class="card">
                 <img src={props.image} class="card-img-top" alt={props.title}/>
                 <div class="card-body">
