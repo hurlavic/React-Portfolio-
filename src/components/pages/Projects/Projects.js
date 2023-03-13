@@ -1,11 +1,12 @@
 import React from "react";
+import image from '../../../images/profile.jpg'
 
 function ProjectGallery() {
   return (
     <section id='project'>
             <div class="cardContainer col-lg-3 col-md-6 col-sm-12">
               <div class="card">
-                <img src="" class="card-img-top" alt="placeholder"/>
+                <img src={image} class="card-img-top" alt="placeholder"/>
                 <div class="card-body">
                   <h3 class="card-title">My Portfolio</h3>
                   <p class="card-text">This is a webpage showcasing my works, skills and contact details.</p>

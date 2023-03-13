@@ -1,23 +1,44 @@
-import React from 'react';
-
+import React from "react";
+import "./contacts.css";
+import {BsFacebook} from 'react-icons/bs'
+import {AiOutlineGithub} from 'react-icons/ai'
+import {BsTwitter} from 'react-icons/bs'
+import {AiFillPhone} from 'react-icons/ai'
 
 function Contact(props) {
   return (
-    <section id='contact'>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <section id="contact">
+      <form>
+        <div className="form">
+          <label for="exampleFormControlInput1">Email address</label>
+          <input
+            type="text"
+            className="form-control"
+            id="exampleFormControlInput1"
+            placeholder="johndoe@example.com"
+          />
+        </div>
+        <div className="form-group">
+          <label for="exampleFormControlTextarea1">Send Message</label>
+          <textarea
+            className="form-control"
+            id="exampleFormControlTextarea1"
+            rows="3"
+          ></textarea>
+          <div className="submit">
+            <button type="submit" className="btn btn-primary mb-2">
+              Submit
+            </button>
+          </div>
+        </div>
+      </form>
+      <h5>OR CONNECT WITH ME</h5>
+      <div className="icons">
+        <a href="https://www.facebook.com/akindele.oluwatoyosi" rel="noopener noreferrer" target="_blank" id="icon"><BsFacebook /></a>
+        <a href="https://github.com/hurlavic" rel="noopener noreferrer" target="_blank" id="icon"><AiOutlineGithub /></a>
+        <a href="https://twitter.com/Watoiy" rel="noopener noreferrer" target="_blank" id="icon"><BsTwitter /></a>
+        <a href="tel:+447874083812" rel="noopener noreferrer" target="_blank" id="icon"><AiFillPhone /></a>
+      </div>
     </section>
   );
 }
