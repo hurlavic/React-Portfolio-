@@ -16,11 +16,11 @@ body {
   align-items: center;
   padding-top: 10%;
   }
-p{
+text p{
   font-size: 1.1rem;
   color: white;
 }
-h2{
+text h2{
   color: yellow;
   font-size: 3rem !important;
 }
@@ -28,7 +28,7 @@ h2{
   margin-left: 5%;
   text-decoration: none;
 }
-img{
+.img{
   width: 280px;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;

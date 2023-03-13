@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 function ProjectGallery(props) {
   return (
     <section id='project'>

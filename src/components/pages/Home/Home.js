@@ -19,7 +19,7 @@ function Home() {
       </div>
 
       <div className="image-container">
-        <img src={profile} alt="profile" />
+        <img src={profile} alt="profile" className="img" />
       </div>
     </section>
   );
