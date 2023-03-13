@@ -4,7 +4,7 @@ import profile from '../../../images/profile.jpg'
 
 function Home() {
   return (
-    <div className="main">
+    <section id="home">
     <div className="parent">
       <p className="text-1">Hello, my name is</p>
       <h1 className="display">Victor Akindele</h1>
@@ -12,7 +12,7 @@ function Home() {
     </div>
     <image src={profile} alt="profile dp"/>
   
-    </div>
+    </section>
   );
 }
 

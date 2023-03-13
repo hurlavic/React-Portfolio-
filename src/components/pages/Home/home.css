@@ -8,12 +8,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
+  /* display: flex; */
  }
 .parent{
   display: block;
   margin-left:10%;
-  margin-top: 25%;
+  margin-top: 15%;
 }
 .text-1, .text-2{
   font-size: 20px;
@@ -23,9 +23,7 @@ body {
   font-size: 60px;
   color: yellow;
 }
-.main{
-  /* display: flex; */
-}
+
 image{
   width: 50px;
 }
