@@ -1,11 +1,31 @@
-.background-image {
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500;700&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
   background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
-    url(../../../images/background\ image.jpg);
-  height: 800px;
+    url(../../../images/jeshoot.jpg);
+  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+ }
+.parent{
+  display: block;
+  margin-left:10%;
+  margin-top: 25%;
 }
-.text {
-  color: red;
+.text-1, .text-2{
+  font-size: 20px;
+  color: white;
+}
+.display{
+  font-size: 60px;
+  color: yellow;
+}
+.main{
+  /* display: flex; */
+}
+image{
+  width: 50px;
 }

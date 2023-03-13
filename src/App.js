@@ -6,6 +6,7 @@ import About from './components/pages/About/About';
 import ProjectGallery from './components/pages/Projects/Projects';
 import Contact from './components/pages/Contacts/Contact';
 // import projects from './projects.json'
+import './index.css'
 
 function App() {
   return (

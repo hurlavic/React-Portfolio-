@@ -1,13 +1,17 @@
 import React from "react";
-import './home.css'
+import "./home.css";
+import profile from '../../../images/profile.jpg'
 
 function Home() {
   return (
-    <div>
-      {/* <h1>Home Page</h1> */}
-      <div className="background-image"></div>
-
-
+    <div className="main">
+    <div className="parent">
+      <p className="text-1">Hello, my name is</p>
+      <h1 className="display">Victor Akindele</h1>
+      <p className="text-2">I am an intern Front-end developer</p>
+    </div>
+    <image src={profile} alt="profile dp"/>
+  
     </div>
   );
 }
