@@ -4,6 +4,7 @@ import {BsFacebook} from 'react-icons/bs'
 import {AiOutlineGithub} from 'react-icons/ai'
 import {BsTwitter} from 'react-icons/bs'
 import {AiFillPhone} from 'react-icons/ai'
+import {FaLinkedin} from 'react-icons/fa'
 
 function Contact(props) {
   return (
@@ -37,6 +38,7 @@ function Contact(props) {
         <a href="https://www.facebook.com/akindele.oluwatoyosi" rel="noopener noreferrer" target="_blank" id="icon"><BsFacebook /></a>
         <a href="https://github.com/hurlavic" rel="noopener noreferrer" target="_blank" id="icon"><AiOutlineGithub /></a>
         <a href="https://twitter.com/Watoiy" rel="noopener noreferrer" target="_blank" id="icon"><BsTwitter /></a>
+        <a href="https://www.linkedin.com/in/toyosi-akindele-725aa3103/" rel="noopener noreferrer" target="_blank" id="icon"><FaLinkedin /></a>
         <a href="tel:+447874083812" rel="noopener noreferrer" target="_blank" id="icon"><AiFillPhone /></a>
       </div>
     </section>

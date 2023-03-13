@@ -3,27 +3,39 @@
 body {
   font-family: "Poppins", sans-serif !important;
   background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
-    url(../../../images/jeshoot.jpg);
+    url(../../../assets/images/jeshoot.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   /* display: flex; */
  }
-.parent{
-  display: block;
-  margin-left:10%;
-  margin-top: 15%;
-}
-.text-1, .text-2{
-  font-size: 20px;
+ #home{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10%;
+  }
+p{
+  font-size: 1.1rem;
   color: white;
 }
-.display{
-  font-size: 60px;
+h2{
   color: yellow;
+  font-size: 3rem !important;
 }
-
-image{
-  width: 50px;
+.btn-secondary{
+  margin-left: 5%;
+  text-decoration: none;
+}
+img{
+  width: 280px;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  transform: rotate(15deg);
+}
+.image-container{
+  background-color: rgb(35, 34, 34);
+  border-top-left-radius: 2rem;
+  transform: rotate(-5deg);
 }
