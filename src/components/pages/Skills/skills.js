@@ -5,6 +5,7 @@ import "./skills.css";
 function Skill() {
   return (
     <section id="skill">
+        <h2 className="skill-header">My Skills</h2>
       <div className="parent-container">
         <div className="skill-container">
           <span id="skill-span"><HiBadgeCheck/></span>

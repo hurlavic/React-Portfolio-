@@ -1,8 +1,13 @@
 #skill{
     display: flex;
     justify-content: center;
-    padding-top: 8%;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
     
+}
+.skill-header{
+    text-align: center;
 }
 .parent-container {
   display: grid;
@@ -25,4 +30,23 @@
 }
 .skill-container p {
   font-size: small;
+}
+
+@media(max-width:700px){
+    .parent-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 5%;
+        column-gap: 10%;        
+    }
+}
+@media(max-width:450px){
+    .parent-container{
+        margin: 10%;
+        column-gap: 10%;
+    }
+    .skill-container{
+        display: block;
+        margin: 0 auto;
+    }
 }
