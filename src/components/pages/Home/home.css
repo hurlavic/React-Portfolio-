@@ -46,3 +46,21 @@
 .img:hover {
   transform: rotate(0deg);
 }
+
+
+@media(max-width:850px){
+  #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .image-container{
+    margin-top: 5rem;
+  }
+  .portfolio{
+    display: none;
+  }
+}
