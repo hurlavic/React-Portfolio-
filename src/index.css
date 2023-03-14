@@ -11,7 +11,7 @@
 }
 body {
   font-family: "Poppins", sans-serif !important;
-  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
+  background-image: linear-gradient(rgba(62, 71, 107, 0.3), rgba(66, 81, 139, 0.5)),
     url(../src/projectImages/jeshoot.jpg);
   height: 100vh;
   background-position: center;

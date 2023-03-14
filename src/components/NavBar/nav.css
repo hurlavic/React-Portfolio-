@@ -1,7 +1,7 @@
 ul {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 2px;
-  border-radius: 15px;
+  border-radius: 3rem;
   width: 40%;
   text-align: center;
   position: fixed;
@@ -10,13 +10,20 @@ ul {
   transform: translateX(-50%);
   margin-bottom: 20px;
   z-index: 2;
+  backdrop-filter: blur(10px);
 }
 ul li {
   padding: 10px 30px;
   display: inline-block;
+  transition: 0.3s;
 }
 #nav-span {
   color: white;
+}
+ul li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+  /* border-radius: 30%; */
+  /* width: 20px; */
 }
 
 @media (max-width: 1200px) {

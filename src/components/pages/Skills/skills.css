@@ -14,7 +14,7 @@
   grid-template-columns: repeat(3, 1fr);
   row-gap: 2rem;
   padding: 2rem 5rem;
-  background-color: rgb(88, 109, 150);
+  background-color: rgb(36, 91, 202);
   border-radius: 2rem;
   transition: 0.4s;
 }
@@ -26,7 +26,8 @@
 .skill-container {
   line-height: 1%;
   text-align: center;
-  padding: 8%;  
+  padding: 8%;
+  color: rgb(136, 255, 0);
 }
 .skill-container p {
   font-size: small;
