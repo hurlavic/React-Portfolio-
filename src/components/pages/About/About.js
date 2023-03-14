@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import {Link} from 'react-router-dom'
+import { Link } from "react-router-dom";
 import { HiBadgeCheck } from "react-icons/hi";
-import {BsFillPeopleFill} from 'react-icons/bs';
-import {MdOutlineWorkHistory} from 'react-icons/md'
+import { BsFillPeopleFill } from "react-icons/bs";
+import { MdOutlineWorkHistory } from "react-icons/md";
 
 function About() {
   return (
@@ -17,40 +17,46 @@ function About() {
           />
         </div>
         <div className="experience">
-          <div className="xp-cards">
-            <div className="card-template">
-              <span id="xp-icons">
-                <HiBadgeCheck />
-              </span>
-              <h5>Experience</h5>
-              <p>Bootcamp training</p>
-            </div>
-            <div className="card-template">
-              <span id="xp-icons">
-                <BsFillPeopleFill />
-              </span>
-              <h5>Clients</h5>
-              <p>Upcoming</p>
-            </div>
-            <div className="card-template">
-              <span id="xp-icons">
-                <MdOutlineWorkHistory />
-              </span>
-              <h5>Projects</h5>
-              <p>15+</p>
+          <div className="xp-header">
+            <h4 className="header-text">A little About me</h4>
+            <div className="xp-cards">
+              <div className="card-template">
+                <span id="xp-icons">
+                  <HiBadgeCheck />
+                </span>
+                <h5>Experience</h5>
+                <p>Bootcamp training</p>
+              </div>
+              <div className="card-template">
+                <span id="xp-icons">
+                  <BsFillPeopleFill />
+                </span>
+                <h5>Clients</h5>
+                <p>Upcoming</p>
+              </div>
+              <div className="card-template">
+                <span id="xp-icons">
+                  <MdOutlineWorkHistory />
+                </span>
+                <h5>Challenges completed</h5>
+                <p>15+</p>
+              </div>
             </div>
           </div>
           <div>
             <p className="about-text">
-              this is just a dummy text to be reviewed later for a more accurate
-              text that makes much mire more and morer sense lool this is just a
-              dummy text to be reviewed later for a more accurate text that
-              makes much mire more and morer sense lool this is just a dummy
-              text to be reviewed later for a more accurate text that makes much
-              mire more and morer sense lool
+              I'm a highly motivated and enthusiastic Frontend Developer with a
+              passion for creating beautiful and responsive web applications.
+              Recently completed a bootcamp training in Frontend Development at
+              the University of Birmingham. Skilled in HTML, CSS, JavaScript,
+              and ReactJS. Eager to leverage my skills and knowledge to
+              contribute to a dynamic and innovative team.
             </p>
             <Link to="/contact">
-            <button className="btn btn-primary mb-2">Let's talk</button>
+              <button className="btn btn-primary mb-2">Let's talk</button>
+            </Link>
+            <Link to="/skills">
+              <button className="btn btn-secondary mb-2">View my skills</button>
             </Link>
           </div>
         </div>

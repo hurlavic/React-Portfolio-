@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Poppins:wght@300;400;500;600&family=Roboto+Slab:wght@100&family=Roboto:wght@100;400;500;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -7,11 +9,14 @@
   border: 0;
   text-decoration: none;
 }
-
-:root {
-  --color-bg: rgb(43, 43, 78);
-  --color-primary: #4db5ff;
-  --color-white: #fff;
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
+    url(../src/projectImages/jeshoot.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 html {
   scroll-behavior: smooth;

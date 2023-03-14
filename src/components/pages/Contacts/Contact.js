@@ -14,30 +14,32 @@ function Contact(props) {
   async function handleForm(e) {
     e.preventDefault();
 
-    const emailValidity = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+    const emailValidity =
+      /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
-    if(!emailValidity.test(email)){
-      setError('Please enter a valid email');
+    if (!emailValidity.test(email)) {
+      setError("Please enter a valid email");
       setTimeout(() => {
-        setError('');
-    }, 3000)
+        setError("");
+      }, 3000);
       return;
-    }else if (textArea.length > 500){
-      setError('Maximum Character is 500');
+    } else if (textArea === "") {
+      setError("Please enter your message");
       setTimeout(() => {
-        setError('');
-    }, 3000)
-    } 
+        setError("");
+      }, 3000);
+    } else {
       // Construct the email body
-  const body = `Email: ${email}%0D%0A%0D%0A${textArea}`;
+      const body = `Email: ${email}%0D%0A%0D%0A${textArea}`;
 
-  // Construct the mailto URL
-  const url = `mailto:toiboi.victor@gmail.com?subject=Contact Form&body=${body}`;
+      // Construct the mailto URL
+      const url = `mailto:toiboi.victor@gmail.com?subject=Contact Form&body=${body}`;
 
-  // Open the email client with the mailto URL
-  window.open(url, "_blank");
-  setEmail('');
-  setTextArea('');
+      // Open the email client with the mailto URL
+      window.open(url, "_blank");
+      setEmail("");
+      setTextArea("");
+    }
   }
 
   return (
@@ -62,7 +64,7 @@ function Contact(props) {
             rows="3"
             value={textArea}
             onChange={(e) => setTextArea(e.target.value)}
-            maxLength="500"          
+            maxLength="500"
           ></textarea>
           <div className="error">{error}</div>
           <div className="submit">
