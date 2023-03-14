@@ -8,7 +8,7 @@ function About() {
       <div id="about">
         <div className="img-left">
           <img
-            src="/assets/images/profile.jpg"
+            src="/assets/publicImage/about image.jpg"
             alt="profile dp"
             className="about-img"
           />

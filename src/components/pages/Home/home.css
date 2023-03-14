@@ -3,7 +3,7 @@
 body {
   font-family: "Poppins", sans-serif !important;
   background-image: linear-gradient(rgba(4, 9, 30, 0.3), rgba(4, 9, 30, 0.5)),
-    url(../../../assets/images/jeshoot.jpg);
+    url(../../../projectImages/jeshoot.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;

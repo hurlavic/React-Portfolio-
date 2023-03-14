@@ -5,15 +5,15 @@ import Wrapper from "../../Wrapper/wrapper";
 import "./projects.css";
 
 // imports image for card
-import refractor from '../../../assets/images/refractor.png'
-import prework from '../../../assets/images/prework.png'
-import bootstrap from '../../../assets/images/bootstrap.png'
-import passwordGen from '../../../assets/images/password.png'
-import quiz from '../../../assets/images/quiz.png'
-import weather from '../../../assets/images/weather.png'
-import country from '../../../assets/images/country.png'
-import readme from '../../../assets/images/open-graph-logo.png'
-import profileGen from '../../../assets/images/profile gen.png'
+import refractor from '../../../projectImages/refractor.png'
+import prework from '../../../projectImages/prework.png'
+import bootstrap from '../../../projectImages/bootstrap.png'
+import passwordGen from '../../../projectImages/password.png'
+import quiz from '../../../projectImages/quiz.png'
+import weather from '../../../projectImages/weather.png'
+import country from '../../../projectImages/country.png'
+import readme from '../../../projectImages/open-graph-logo.png'
+import profileGen from '../../../projectImages/profile gen.png'
 
 
 class ProjectApp extends Component {
