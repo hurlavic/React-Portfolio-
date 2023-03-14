@@ -13,9 +13,10 @@ body {
   font-family: "Poppins", sans-serif !important;
   background-image: linear-gradient(rgba(62, 71, 107, 0.3), rgba(66, 81, 139, 0.5)),
     url(../src/projectImages/jeshoot.jpg);
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 html {
   scroll-behavior: smooth;
@@ -23,4 +24,11 @@ html {
 ::-webkit-scrollbar {
   display: none;
 }
+
+ @media(max-width:400px){
+  body{
+   min-height: 100vh;
+  }
+}
+
 

@@ -61,7 +61,7 @@
 }
 
 
-@media (max-width: 850px) {
+@media (max-width: 950px) {
   #about {
     display: flex;
     flex-direction: column;
@@ -74,5 +74,20 @@
   }
   .header-text {
     margin-top: 3rem;
+  }
+}
+@media(max-width:600px){
+  .experience{
+    scale: 0.7;
+  }
+}
+@media(max-width:400px){
+  #about{
+    scale: 0.85;
+  }
+}
+@media(min-width:1200px){
+  #about{
+    padding-top: 10%;
   }
 }

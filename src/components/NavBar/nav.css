@@ -22,8 +22,6 @@ ul li {
 }
 ul li:hover {
   background-color: rgba(0, 0, 0, 0.3);
-  /* border-radius: 30%; */
-  /* width: 20px; */
 }
 
 @media (max-width: 1200px) {
@@ -37,5 +35,9 @@ ul li:hover {
     flex-direction: row;
     width: 80%;
     justify-content: center;
+    align-items: center;
   }
+  ul li {
+    padding: 5px 15px;
+}
 }

@@ -64,3 +64,14 @@
     display: none;
   }
 }
+@media(max-width:400px){
+  .image-container{
+    margin-bottom: 20%;
+    scale: 0.8;
+  }
+}
+@media(max-width:550px){
+.image-container{
+  margin-bottom: 15%;
+}
+}
