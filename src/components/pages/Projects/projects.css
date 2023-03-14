@@ -1,9 +1,9 @@
 .cardContainer {
     margin-bottom: 15px;
-    display: grid;
+    /* display: grid; */
   }
   .card {
-    margin: 0 auto;
+    /* margin: 0 auto; */
     cursor: pointer;
     transition: 0.5s;
   }
@@ -20,4 +20,8 @@
 .card-title{
   color: rgb(30, 30, 97);
   font-size: 1.5em;
+}
+.card-img{
+  width: 30%;
+  aspect-ratio: 2/1;
 }
