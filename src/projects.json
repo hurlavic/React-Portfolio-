@@ -59,16 +59,14 @@
         "id": 8,
         "title": "Readme Generator",
         "description": "This is a command line application to generate professional readme files for new projects.",
-        "image": "../public/image1.jpg",
-        "deployedSite": "",
+        "image": "../public/image1.jpg",        
         "githubLink": "https://github.com/hurlavic/Readme-Generator"
     },
     {
         "id": 9,
         "title": "Team Profile Generator",
         "description": "This is a Node.js command-line based application for generating basic team profile for software engineer team. ",
-        "image": "../public/image1.jpg",
-        "deployedSite": "",
+        "image": "../public/image1.jpg",        
         "githubLink": "https://github.com/hurlavic/Team-Profile-Generator"
     }
 ]

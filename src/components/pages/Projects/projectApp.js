@@ -3,40 +3,19 @@ import projects from "../../../projects.json";
 import ProjectGallery from "./Projects";
 import Wrapper from "../../wrapper/wrapper";
 import "./projects.css";
+
+// imports image for card
 import refractor from '../../../assets/images/refractor.png'
-// import portfolio from '../../../assets/images/jeshoot.jpg'
 import prework from '../../../assets/images/prework.png'
 import bootstrap from '../../../assets/images/bootstrap.png'
+import passwordGen from '../../../assets/images/password.png'
+import quiz from '../../../assets/images/quiz.png'
+import weather from '../../../assets/images/weather.png'
+import country from '../../../assets/images/country.png'
+import readme from '../../../assets/images/open-graph-logo.png'
+import profileGen from '../../../assets/images/profile gen.png'
 
 
-// class ProjectApp extends Component {
-//     state = {
-//       projects,
-//     };
-//     componentDidMount() {
-//         console.log("Image:", this.state.projects[0].image);
-//       }
-  
-//     render() {
-//       return (
-//         <Wrapper>
-//           {this.state.projects.map(project => (
-//             <ProjectGallery
-//               key={project.id}
-//               title={project.title}
-//               description={project.description}
-//               image={process.env.PUBLIC_URL + project.image}
-//               deploy={project.deployedSite}
-//               repo={project.githubLink}
-//             />
-//           ))}
-//         </Wrapper>
-        
-//       );
-     
-//     }
-    
-//   }
 class ProjectApp extends Component {
   state = {
     projects,
@@ -69,42 +48,42 @@ class ProjectApp extends Component {
         <ProjectGallery
           title={projects[3].title}
           description={projects[3].description}
-          image={projects[3].image}
+          image={passwordGen}
           deploy={projects[3].deployedSite}
           repo={projects[3].githubLink}
         />
         <ProjectGallery
           title={projects[4].title}
           description={projects[4].description}
-          image={projects[4].image}
+          image={quiz}
           deploy={projects[4].deployedSite}
           repo={projects[4].githubLink}
         />
         <ProjectGallery
           title={projects[5].title}
           description={projects[5].description}
-          image={projects[5].image}
+          image={weather}
           deploy={projects[5].deployedSite}
           repo={projects[5].githubLink}
         />
         <ProjectGallery
           title={projects[6].title}
           description={projects[6].description}
-          image={projects[6].image}
+          image={country}
           deploy={projects[6].deployedSite}
           repo={projects[6].githubLink}
         />
         <ProjectGallery
           title={projects[7].title}
           description={projects[7].description}
-          image={projects[7].image}
+          image={readme}
           deploy={projects[7].deployedSite}
           repo={projects[7].githubLink}
         />
         <ProjectGallery
           title={projects[8].title}
           description={projects[8].description}
-          image={projects[8].image}
+          image={profileGen}
           deploy={projects[8].deployedSite}
           repo={projects[8].githubLink}
         />

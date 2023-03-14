@@ -13,15 +13,18 @@ ul {
     
     
 }
-ul li{
-    color: white;
+ul li{    
     padding: 10px 30px;
     display: inline-block;
 }
-
+span{
+    color: white;
+}
 @media(max-width:700px){
-    ul li{
-        display: inline-block;
-        width: 100%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: center;
     }
 }
