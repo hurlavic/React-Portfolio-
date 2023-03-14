@@ -1,5 +1,6 @@
 .cardContainer {
     margin-bottom: 15px;
+    display: grid;
   }
   .card {
     margin: 0 auto;

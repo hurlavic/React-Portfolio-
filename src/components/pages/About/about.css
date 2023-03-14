@@ -1,0 +1,23 @@
+#about{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 5%;
+    
+}
+.img-left{
+    background-color: rgb(78, 67, 67);
+    padding-left: 3%;
+    padding-top: 5%;
+    height: 80%;
+}
+.about-img{
+    width: 350px;
+}
+.experience{
+    padding-top: 3rem;
+}
+.xp-cards{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
