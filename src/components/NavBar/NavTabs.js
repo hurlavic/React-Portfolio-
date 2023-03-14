@@ -11,22 +11,22 @@ function NavTabs() {
     <ul>
       <li>
         <NavLink to="home">
-          <span><AiTwotoneHome /></span>
+          <span id="nav-span"><AiTwotoneHome /></span>
         </NavLink>
       </li>
       <li>
         <NavLink to="about">
-          <span><FaUserTie /></span>
+          <span id="nav-span"><FaUserTie /></span>
         </NavLink>
       </li>
       <li>
         <NavLink to="project">
-        <span><BsBriefcaseFill /></span>
+        <span id="nav-span"><BsBriefcaseFill /></span>
         </NavLink>
       </li>
       <li>
         <NavLink to="contact">
-        <span><BsFillEnvelopeFill /></span>
+        <span id="nav-span"><BsFillEnvelopeFill /></span>
         </NavLink>
       </li>
     </ul>

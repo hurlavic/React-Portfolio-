@@ -17,7 +17,7 @@ ul li{
     padding: 10px 30px;
     display: inline-block;
 }
-span{
+#nav-span{
     color: white;
 }
 @media(max-width:700px){

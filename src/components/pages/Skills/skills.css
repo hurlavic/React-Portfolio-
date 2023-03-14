@@ -1,0 +1,30 @@
+#skill{
+    display: flex;
+    justify-content: center;
+    padding-top: 8%;
+    
+}
+.parent-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 2rem;
+  padding: 2rem 5rem;
+  background-color: rgb(88, 109, 150);
+  border-radius: 2rem;
+  transition: 0.4s;
+}
+.parent-container:hover{
+    background-color: rgba(88, 109, 150, 0.3);
+    border: 1px solid blue;
+}
+
+.skill-container {
+  line-height: 1%;
+  text-align: center;
+  padding: 8%;
+  
+  
+}
+.skill-container p {
+  font-size: small;
+}
