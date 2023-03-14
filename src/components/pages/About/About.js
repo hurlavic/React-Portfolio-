@@ -1,6 +1,9 @@
 import React from "react";
 import "./about.css";
+import {Link} from 'react-router-dom'
 import { HiBadgeCheck } from "react-icons/hi";
+import {BsFillPeopleFill} from 'react-icons/bs';
+import {MdOutlineWorkHistory} from 'react-icons/md'
 
 function About() {
   return (
@@ -16,24 +19,24 @@ function About() {
         <div className="experience">
           <div className="xp-cards">
             <div className="card-template">
-              <span>
+              <span id="xp-icons">
                 <HiBadgeCheck />
               </span>
-              <h4>Experience</h4>
+              <h5>Experience</h5>
               <p>Bootcamp training</p>
             </div>
             <div className="card-template">
-              <span>
-                <HiBadgeCheck />
+              <span id="xp-icons">
+                <BsFillPeopleFill />
               </span>
-              <h4>Clients</h4>
+              <h5>Clients</h5>
               <p>Upcoming</p>
             </div>
             <div className="card-template">
-              <span>
-                <HiBadgeCheck />
+              <span id="xp-icons">
+                <MdOutlineWorkHistory />
               </span>
-              <h4>Projects</h4>
+              <h5>Projects</h5>
               <p>15+</p>
             </div>
           </div>
@@ -46,7 +49,9 @@ function About() {
               text to be reviewed later for a more accurate text that makes much
               mire more and morer sense lool
             </p>
+            <Link to="/contact">
             <button className="btn btn-primary mb-2">Let's talk</button>
+            </Link>
           </div>
         </div>
       </div>
