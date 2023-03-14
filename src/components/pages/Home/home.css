@@ -1,33 +1,48 @@
- #home{
+#home {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   padding-top: 10%;
-  }
-  .intro-text{
+  position: relative;
+}
+.portfolio{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 3rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: 0.3s;
+  cursor:default;
+}
+.portfolio:hover{
+  color: rgb(99, 49, 49);
+}
+.intro-text {
   font-size: 1.1rem;
   color: white;
 }
-.name{
+.name {
   color: yellow;
   font-size: 3rem !important;
 }
-.btn-secondary{
+.btn-secondary {
   margin-left: 5%;
   text-decoration: none;
 }
-.img{
+.img {
   width: 280px;
   border-top-right-radius: 2rem;
   border-bottom-left-radius: 2rem;
   transform: rotate(15deg);
   transition: 0.3s;
 }
-.image-container{
+.image-container {
   background-color: rgb(35, 34, 34);
   border-top-left-radius: 2rem;
   transform: rotate(-5deg);
 }
-.img:hover{
+.img:hover {
   transform: rotate(0deg);
 }

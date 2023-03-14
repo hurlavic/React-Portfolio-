@@ -20,6 +20,7 @@ function About() {
           <div className="xp-header">
             <h4 className="header-text">A little About me</h4>
             <div className="xp-cards">
+              <Link to="/skills" className="custom-link">
               <div className="card-template">
                 <span id="xp-icons">
                   <HiBadgeCheck />
@@ -27,6 +28,7 @@ function About() {
                 <h5>Experience</h5>
                 <p>Bootcamp training</p>
               </div>
+              </Link>
               <div className="card-template">
                 <span id="xp-icons">
                   <BsFillPeopleFill />
@@ -34,6 +36,7 @@ function About() {
                 <h5>Clients</h5>
                 <p>Upcoming</p>
               </div>
+              <Link to="/project" className="custom-link">
               <div className="card-template">
                 <span id="xp-icons">
                   <MdOutlineWorkHistory />
@@ -41,6 +44,7 @@ function About() {
                 <h5>Challenges completed</h5>
                 <p>15+</p>
               </div>
+              </Link>
             </div>
           </div>
           <div>

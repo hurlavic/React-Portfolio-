@@ -3,7 +3,7 @@
   grid-template-columns: 35% 50%;
   gap: 5%;
   margin: 5rem;
- }
+}
 .img-left {
   background-color: #605c32;
   padding-left: 3%;
@@ -31,6 +31,7 @@
   width: 10rem;
   cursor: pointer;
   transition: 0.6s;
+  height: 8rem;
 }
 #xp-icons {
   font-size: 1.5rem;
@@ -39,16 +40,22 @@
 .card-template p {
   font-size: small;
 }
+.card-template h5{
+    font-size: 1rem;
+    margin-top: 1rem;
+}
 .card-template:hover {
   background-color: rgba(8, 8, 134, 0.5);
 }
-.btn-secondary{
-    background-color: rgb(32, 31, 31) !important;
+.btn-secondary {
+  background-color: rgb(32, 31, 31) !important;
 }
-
-.xp-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.custom-link{
+    text-decoration: none !important;
+}
+.xp-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

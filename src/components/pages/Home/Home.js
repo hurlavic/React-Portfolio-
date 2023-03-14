@@ -1,11 +1,12 @@
 import React from "react";
 import "./home.css";
-import profile from "../../../projectImages/profile.jpg"
+import profile from "../../../projectImages/profile.jpg";
 import { Link } from "react-router-dom";
 
 function Home() {
   return (
     <section id="home">
+      <p className="portfolio">My Portfolio</p>
       <div className="text">
         <p className="intro-text">Hello, my name is</p>
         <h2 className="name">Victor Akindele</h2>
