@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import projects from "../../../projects.json";
 import ProjectGallery from "./Projects";
-import Wrapper from "../../Wrapper/wrapper";
+import Wrapper from "./Wrapper/wrapper";
 import "./projects.css";
 
 // imports image for card
