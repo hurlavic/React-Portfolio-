@@ -1,6 +1,6 @@
 ul {
   background-color: rgba(0, 0, 0, 0.6);
-  padding: 2px;
+  padding: 5px;
   border-radius: 3rem;
   width: 40%;
   text-align: center;
@@ -19,6 +19,7 @@ ul li {
 }
 #nav-span {
   color: white;
+  font-size: 25px;
 }
 ul li:hover {
   background-color: rgba(0, 0, 0, 0.3);
@@ -26,7 +27,7 @@ ul li:hover {
 
 @media (max-width: 1200px) {
   ul {
-    width: 60%;
+    width: 70%;
   }
 }
 @media (max-width: 700px) {
@@ -36,8 +37,13 @@ ul li:hover {
     width: 80%;
     justify-content: center;
     align-items: center;
+    padding: 3%;
   }
   ul li {
     padding: 5px 15px;
+}
+#nav-span{
+  font-size: 25px;
+  text-align: center;
 }
 }
