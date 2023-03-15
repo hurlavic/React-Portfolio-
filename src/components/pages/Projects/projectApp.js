@@ -23,6 +23,8 @@ class ProjectApp extends Component {
   
   render() {
     return (
+      <div id="wrapper">
+      <h2 className="profile-header">My Works</h2>
       <Wrapper>
         <ProjectGallery
           title={projects[0].title}
@@ -88,6 +90,7 @@ class ProjectApp extends Component {
           repo={projects[8].githubLink}
         />
       </Wrapper>
+      </div>
     );
   }
 }

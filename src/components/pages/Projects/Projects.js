@@ -6,7 +6,12 @@ function ProjectGallery(props) {
     <section id="project">
       <div class="cardContainer">
         <div class="card">
-          <img src={props.image} class="card-img-top" alt={props.title} className="card-img" />
+          <img
+            src={props.image}
+            class="card-img-top"
+            alt={props.title}
+            className="card-img"
+          />
           <div class="card-body">
             <h3 class="card-title">{props.title}</h3>
             <p class="card-text">{props.description}</p>

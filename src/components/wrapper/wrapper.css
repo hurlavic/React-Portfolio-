@@ -15,5 +15,6 @@ padding-top: 5%;
 @media(max-width:750px){
   .wrapper{
     grid-template-columns: 1fr;
+    margin-top: -25%;
   }
 }

@@ -74,7 +74,7 @@ function Contact(props) {
           </div>
         </div>
       </form>
-      <h5>OR CONNECT WITH ME</h5>
+      <h5 className="connect">OR CONNECT WITH ME</h5>
       <div className="icons">
         <a
           href="https://www.facebook.com/akindele.oluwatoyosi"
