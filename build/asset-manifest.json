@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a3a1f45e.css",
+    "main.js": "/static/js/main.ce0af8e0.js",
+    "static/media/refractor.png": "/static/media/refractor.6ef1968a93331a3bce95.png",
+    "static/media/country.png": "/static/media/country.b02151311d8f58648b70.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.7fe469e43d2b281bb904.png",
+    "static/media/profile.jpg": "/static/media/profile.7ced41841ae07224f848.jpg",
+    "static/media/jeshoot.jpg": "/static/media/jeshoot.82aff82e0146e4853ab7.jpg",
+    "static/media/open-graph-logo.png": "/static/media/open-graph-logo.b0bb9cc096233756654b.png",
+    "static/media/weather.png": "/static/media/weather.de298d8ba784ab5d6479.png",
+    "static/media/prework.png": "/static/media/prework.3b22d585b885e758e1c4.png",
+    "static/media/profile gen.png": "/static/media/profile gen.3e20c8294acea2ac7b96.png",
+    "static/media/password.png": "/static/media/password.fff4d559c74b81201b03.png",
+    "static/media/quiz.png": "/static/media/quiz.674d2f3e5daf6bc57cb2.png",
+    "index.html": "/index.html",
+    "main.a3a1f45e.css.map": "/static/css/main.a3a1f45e.css.map",
+    "main.ce0af8e0.js.map": "/static/js/main.ce0af8e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3a1f45e.css",
+    "static/js/main.ce0af8e0.js"
+  ]
+}
